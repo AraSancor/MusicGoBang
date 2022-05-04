@@ -184,9 +184,10 @@ a {
   }
   .containerdisc a {
     font-size: 2.5vw;
-    background-color: red;
+    color: var(--color-uno);
+    background-color: var(--color-tres);
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
   }
 }
 
@@ -267,8 +268,10 @@ a {
   .containerdisc a {
     padding: 1%;
     font-size: 2vw;
-    background-color: red;
+    background-color: var(--color-tres);
     border-radius: 10px;
+    padding: 3%;
+    color: var(--color-uno);
   }
 }
 
@@ -338,8 +341,11 @@ padding: 1.5%;
 
 .containerdisc a {
   font-size: 1.5vw;
-  background-color: red;
+  background-color: var(--color-tres);
   border-radius: 10px;
+  color: var(--color-uno);
+  padding: 3%;
+ 
 }
 .containerdisc p{
   padding-top: 3%;
@@ -437,3 +443,4 @@ button {
 }
 
 /* fin cara*/
+
