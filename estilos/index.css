@@ -1,7 +1,7 @@
 :root {
-    --color-uno: black;
+    --color-uno: rgb(6, 14, 44);
     --color-dos: #4c4e4e;
-    --color-tres: #34caca;
+    --color-tres: #43a4f3;
     --color-cuatro: #E4E4E4;
 }
 
@@ -27,7 +27,7 @@ img {
 }
 
 .img {
-    border-radius: 33px;
+
     width: 50vw;
 }
 
@@ -48,9 +48,9 @@ img {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 5%;
+    height: 10%;
     background-color: white;
-    box-shadow: 0px -5px 15px rgb(3, 24, 82);
+    box-shadow: 0px -5px 15px var(--color-tres);
     z-index: 99;
 
 }
@@ -58,7 +58,7 @@ img {
 button {
     background-color: var(--color-tres);
     font-size: 1vw;
-    border-radius: 10px;
+   
 }
 
 @media only screen and (min-width: 200px) and (max-width: 776px) {
@@ -88,7 +88,7 @@ button {
     }
 
     .img  {
-        border-radius: 33px;
+      
         width: 30vw;
        
     }
