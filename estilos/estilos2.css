@@ -3,6 +3,7 @@
   --color-dos: #1e2f44;
   --color-tres: #dce8f5;
   --color-cuatro: #aac0ca;
+  --color-cinco: #43a4f3;
 }
 
 * {
@@ -16,7 +17,7 @@
 }
 
 .abc a:hover {
-  color: red;
+color: var(--color-cinco);
 }
 
 
@@ -52,7 +53,7 @@ body {
 
 }
 .item1 a:hover{
-  color: red;
+  color: var(--color-cinco);
 }
 
 .item2 {
