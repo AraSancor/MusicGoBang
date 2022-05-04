@@ -151,7 +151,7 @@ a {
     
   }
   .item1 .a {
-    padding: 2%;
+    padding: 1%;
     font-size: 4vw;
     margin-left: 50%;
 
@@ -270,7 +270,7 @@ a {
     font-size: 2vw;
     background-color: var(--color-tres);
     border-radius: 10px;
-    padding: 3%;
+    padding: 1%;
     color: var(--color-uno);
   }
 }
@@ -443,4 +443,3 @@ button {
 }
 
 /* fin cara*/
-
