@@ -5,7 +5,7 @@
   --color-cuatro: #aac0ca;
   --color-cinco: #43a4f3;
 }
-
+/* Colores corporativos*/
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +17,9 @@
 }
 
 .abc a:hover {
-color: var(--color-cinco);
+  color: var(--color-cinco);
 }
-
+/* */
 
 .arriba {
   background-color: var(--color-tres);
@@ -172,23 +172,23 @@ a {
     margin-top: 3%;
   }
   .containerdisc {
-    font-size: 3vw;
+    font-size: 3.3vw;
     width: 28vw;
     height: 30vw;
   }
   .containerdisc p{
   padding-left: 1%;
     text-align: left;
-   
+ 
  
     
   }
   .containerdisc a {
-    font-size: 2vw;
+    font-size: 2.2vw;
     color: var(--color-uno);
     background-color: var(--color-tres);
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
   }
 }
 
@@ -253,7 +253,7 @@ a {
  
   }
   .containerdisc {
-    font-size: 2vw;
+    font-size: 2.1vw;
     width: 22vw;
     height: 22vw;
   }
