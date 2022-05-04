@@ -171,7 +171,7 @@ a {
     margin-top: 3%;
   }
   .containerdisc {
-    font-size: 3.5vw;
+    font-size: 3vw;
     width: 28vw;
     height: 30vw;
   }
@@ -183,7 +183,7 @@ a {
     
   }
   .containerdisc a {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: var(--color-uno);
     background-color: var(--color-tres);
     border-radius: 10px;
