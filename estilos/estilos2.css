@@ -114,7 +114,7 @@ a {
 
 }
 
-@media only screen and (min-width: 250px) and (max-width: 880px) {
+@media only screen and (min-width: 150px) and (max-width: 880px) {
   .grid-container {
     grid-template-areas:
       "header"
@@ -187,7 +187,7 @@ a {
     color: var(--color-uno);
     background-color: var(--color-tres);
     border-radius: 10px;
-    padding: 2%;
+    padding: 1%;
   }
 }
 
@@ -344,7 +344,7 @@ padding: 1.5%;
   background-color: var(--color-tres);
   border-radius: 10px;
   color: var(--color-uno);
-  padding: 3%;
+  padding: 1%;
  
 }
 .containerdisc p{
