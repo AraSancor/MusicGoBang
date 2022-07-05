@@ -46,12 +46,11 @@ body {
 
 .item3 {
   grid-area: main;
-  background-color: var(--color-dos);
-}
+  }
 
 .item4 {
   grid-area: right;
-  background-color: var(--color-dos);
+
 }
 .item4 img:hover {
 opacity: 0.8;
@@ -60,7 +59,7 @@ opacity: 0.8;
 
 .item5 {
   grid-area: aside;
-  background-color: var(--color-dos);
+
 }
 
 .item6 {
