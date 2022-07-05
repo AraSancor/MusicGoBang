@@ -1,9 +1,8 @@
 :root {
-  --color-uno: #181f29;
-  --color-dos: #1e2f44;
+  --color-uno: #111213;
+  --color-dos: #0b0c0e;
   --color-tres: #dce8f5;
-  --color-cuatro: #aac0ca;
-  --color-cinco: #43a4f3;
+   --color-cuatro: #aac0ca;
 }
 /* Colores corporativos*/
 * {
