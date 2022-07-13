@@ -9,8 +9,15 @@ body {
     background-color: var(--color-uno);
     text-align: center;
     font-family: sans-serif;
+    background-image: url("../img/primer.gif");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
-}
+
 
 a {
     text-decoration: none;
@@ -18,7 +25,15 @@ a {
 }
 
 h1 {
-    color: var(--color-tres);
+    color: var(--color-cuatro);
+    background-color: var(--color-uno);
+    opacity: 0.9;
+    margin-top: 11%;
+    padding-right:18% ;
+    text-align: right;
+    height: 6vw;
+    font-size: 3vw;
+
 }
 
 img {
@@ -71,6 +86,12 @@ button {
 
     button {
         font-size: 3vw;
+    }
+    
+    .img  {
+      
+        width: 30vw;
+       
     }
 
 }
