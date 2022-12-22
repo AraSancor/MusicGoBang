@@ -1,0 +1,442 @@
+:root {
+  --color-uno: #111213;
+  --color-dos: #0b0c0e;
+  --color-tres: #dce8f5;
+   --color-cuatro: #aac0ca;
+}
+/* Colores corporativos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abc {
+  display: flex;
+}
+
+.abc a:hover {
+  color: var(--color-cinco);
+}
+/* */
+
+.arriba {
+  background-color: var(--color-tres);
+  color: var(--color-uno);
+  font-size: 4vw;
+  border-radius: 20px;
+  margin-left: 80%;
+  margin-bottom: 10%;
+}
+
+body {
+  background-color: var(--color-dos);
+  font-family: sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "menu header header"
+    "menu main main"
+    "menu main main";
+ /* grid-gap: 1px;*/
+  
+}
+
+.item1 {
+  grid-area: menu;
+  color: var(--color-tres);
+  background-color: rgb(20, 22, 32);
+  border-radius: 15px;
+
+}
+.item1 a:hover{
+  color: var(--color-cinco);
+}
+
+.item2 {
+  grid-area: header;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-uno);
+  color: var(--color-tres);
+  border-radius: 15px;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item3 img {
+  width: 20vw;
+
+}
+
+ul {
+ 
+  list-style: none;
+}
+a {
+
+  text-decoration: none;
+  color: var(--color-tres);
+}
+
+.ul {
+  display: flex;
+
+}
+.li {
+  background-color: var(--color-uno);
+  color: var(--color-tres);
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.li:hover {
+  background-color: rgb(19, 22, 26);
+  opacity: 0.8;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  
+}
+
+.a {
+  background-color: var(--color-tres);
+  color: var(--color-uno);
+  font-size: 2vw;
+
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 880px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "menu "
+      "main";
+  }
+  button {
+    font-size: 3vw;
+  }
+
+  .div img {
+    margin-top: 2%;
+    width: 6vw;
+       grid-gap: 10px ;
+  }
+  .item1 {
+    margin: 3%;
+    padding-left: 20%;
+    margin-bottom: 1%;
+  }
+  li {
+   padding: 1%;
+    font-size: 3vw;
+  }
+ 
+  .li{
+    padding: 1%;
+    margin: 1%;
+  }
+  .item1 h3 {
+    font-size: 4vw;
+    text-align: justify;
+    margin-left: 20%;
+    
+  }
+  .item1 .a {
+    padding: 1%;
+    font-size: 4vw;
+    margin-left: 50%;
+
+  }
+  .abc li {
+    font-size: 2.5vw;
+    margin-left: 1.5%;
+  }
+ 
+  
+  .item3 {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .item3 li {
+    margin-bottom: 8%;
+    margin-top: 3%;
+  }
+  .containerdisc {
+    font-size: 3.3vw;
+    width: 28vw;
+    height: 30vw;
+  }
+  .containerdisc p{
+  padding-left: 1%;
+    text-align: left;
+ 
+ 
+    
+  }
+  .containerdisc a {
+    font-size: 2.2vw;
+    color: var(--color-uno);
+    background-color: var(--color-tres);
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 1200px) {
+  .grid-container {
+    grid-template-areas:
+      "menu header header"
+      "menu main main"
+      "menu main main";
+  }
+  .div img {
+    width: 4vw;
+    grid-gap: 10PX;
+  }
+  .abc li {
+    font-size: 2vw;
+   margin-left: 1%;
+   padding: 1.5%;
+  }
+
+  .item1 {
+    padding-left: 5%;
+   margin: 3%;
+  }
+  .item1 li,
+  p {
+ 
+    font-size: 1.8vw;
+  }
+  .item1 h3 {
+    font-size: 2.3vw;
+    margin-top: 10%;
+  }
+  
+  li {
+    padding: 1%;
+     font-size: 3vw;
+   }
+  
+   .li{
+     padding: 1%;
+     margin: 1%;
+   }
+ 
+  .item1 .a {
+    padding: 2%;
+    font-size: 3vw;
+    margin-left: 10%;
+  }
+  .item2 {
+    margin-top: 5%;
+  
+  }
+
+  .item2 img {
+    margin-top: 3%;
+  }
+  
+  .item3 li {
+    padding: 1%;
+    margin-bottom: 5%;
+ 
+  }
+  .containerdisc {
+    font-size: 2.1vw;
+    width: 22vw;
+    height: 22vw;
+  }
+
+  .containerdisc p{
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 3%;
+    padding-bottom: 2%;
+
+    
+  }
+  .containerdisc a {
+    padding: 1%;
+    font-size: 2vw;
+    background-color: var(--color-tres);
+    padding: 1%;
+    color: var(--color-uno);
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+  .grid-container {
+    grid-template-areas:
+      "menu header header"
+      "menu main main"
+      "menu main main";
+  }
+  .abc li {
+    font-size: 1vw;
+   margin-left: 1.5%;
+padding: 1.5%;
+  }
+
+  .div img {
+    width: 3vw;
+ 
+  }
+  .item1{margin-left: 5%;
+  margin-right: 5%;}
+
+  .item1 li,
+  p  {
+    padding-left: 5%;
+    font-size: 1vw;
+  }
+  li {
+    padding: 1%;
+     font-size: 3vw;
+   }
+  
+   .li{
+     padding: 1%;
+     margin: 1%;
+   }
+
+  .item1 h3  {
+    font-size: 1.5vw;
+    margin-top: 10%;
+    padding-left: 5%;
+  }
+  
+   .item1 .a {
+    font-size: 2vw;
+    margin-left: 10%;
+    padding: 2%;
+  }
+.item2{
+  margin: 2%;
+}
+  .item2 img {
+    margin-top: 2%;
+  }
+
+  .item3 li {
+    padding: 1%;
+    margin: 2%;
+  }
+  .containerdisc {
+    font-size: 1.5vw;
+
+    width: 20vw;
+    height: 20vw;
+  }
+
+.containerdisc a {
+  font-size: 1.5vw;
+  background-color: var(--color-tres);
+  color: var(--color-uno);
+  padding: 1%;
+ 
+}
+.containerdisc p{
+  padding-top: 3%;
+  text-align: left;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  
+}}
+
+/* Cara del disco*/
+
+.imgtarg {
+  width: 100%;
+  height: 100%;
+}
+.containerdisc {
+  background-color: transparent;
+  perspective: 2000px;
+}
+
+.disco {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+}
+
+.disco h3,
+card p {
+  display: block;
+  /*margin: 2%;*/
+}
+
+.disco p,
+.disco button {
+  color: var(--color-uno);
+}
+
+.containerdisc:hover .disco {
+  transform: rotateY(180deg);
+
+
+}
+
+.frente {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  justify-content: center;
+}
+.reverso {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+ justify-content: center;
+}
+
+.frente {
+  background-color: var(--color-uno);
+  color: var(--color-uno);
+  display: flex;
+}
+
+.reverso {
+  background-color: var(--color-cuatro);
+  color: var(--color-uno);
+  transform: rotateY(180deg);
+
+}
+
+.reverso p {
+  font-size: 0.65em;
+}
+
+.reverso button {
+  display: block;
+  width: 80%;
+  border: 2px solid var(--color-uno);
+  background: transparent;
+  text-transform: uppercase;
+}
+
+button {
+  display: block;
+  width: 50%;
+  margin: 2rem auto 0;
+  border: 2px solid var(--color-dos);
+  background: transparent;
+  /*padding: 1em;*/
+  text-transform: uppercase;
+}
+
+/* fin cara*/
