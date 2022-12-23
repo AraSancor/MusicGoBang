@@ -5,17 +5,7 @@
     --color-cuatro: #E4E4E4;
 }
 
-body {
-    background-color: var(--color-uno);
-text-align: center;
-    font-family: sans-serif;
-    background-image: url("../img/record.jpg");
-    height: 50vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+
 
 
 
@@ -28,6 +18,8 @@ a {
 }
 
 h1 {
+    opacity: 0.8;
+    font-family: comic;
     color: var(--color-cuatro);
     background-color: var(--color-uno);
 
@@ -60,6 +52,18 @@ button {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 776px) {
+
+    body {
+        background-color: var(--color-uno);
+     text-align: center;
+        font-family: sans-serif;
+        background-image: url("../img/record2.jpg");
+        height: 50vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
     #div-cookies {
         text-align: left;
         font-size: 3vw;
@@ -69,15 +73,16 @@ button {
     h1 {
     
         opacity: 0.9;
-        margin-top: 11%;
+        margin: 15% 1% 30% 0;
         padding-right:18% ;
-        font-size: 10vw;
+        font-size: 11vw;
     
     }
-    a { padding: 1%;
+    a {
+        padding: 1%;
         opacity: 0.8;
         font-size: 5vw;
-      margin: 1%;
+  
     
     }
     button {
@@ -89,6 +94,18 @@ button {
 }
 
 @media only screen and (min-width: 777px) and (max-width: 3800px) {
+
+    body {
+        background-color: var(--color-uno);
+     text-align: center;
+        font-family: sans-serif;
+        background-image: url("../img/record.jpg");
+        height: 50vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
     #div-cookies {
         text-align: left;
         font-size: 1vw;
@@ -100,19 +117,18 @@ button {
         font-size: 1vw;
     }
     h1 {
-        opacity: 0.9;
+  
         margin-top: 11%;
         padding-right:18% ;
-       font-size: 7vw;
+       font-size: 10vw;
     
     }
 
     a { padding: 1%;
         opacity: 0.8;
         font-size: 2vw;
-      
-    
-    }
+        margin: 3%;
+        }
     
    
 
