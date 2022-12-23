@@ -290,15 +290,19 @@ nav a:hover {
     margin: auto;
   }
 
-  .item3 {
-    padding-left: 5%;
-    padding-right: 10%;
-    background-color: var(--color-uno);
-    color: var(--color-cuatro);
-    margin-bottom: 2%;
-  }
-
+    .item3 {
+     
+      background-image: url("../img/discos.jpg");
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+     padding: 5%;
+      color: var(--color-cuatro);
+      margin-bottom: 2%;
+    }
   .item3 p {
+    
     margin: 0 0 10% 0;
     padding: 2%;
     background-color: var(--color-cinco);
@@ -395,9 +399,22 @@ padding: 1% 1% 1% 5%;
 
 
   .item3 {
-    background-color: #bbb;
-    color: #000;
-    font-size: 3vw;
+    background-color: var(--color-uno);
+ 
+        background-image: url("../img/discos.jpg");
+  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    padding-left: 5%;
+    padding-right: 10%;
+
+    color: var(--color-cuatro);
+    margin-bottom: 2%;
+ 
+    color: var(--color-cuatro);
+    font-size: 2vw;
     padding: 3%;
     grid-gap: 5%;
   }
@@ -408,7 +425,7 @@ padding: 1% 1% 1% 5%;
   }
 
   .item3 p {
-
+    font-size: 1.5vw;
     margin: 0 0 10% 0;
     padding: 5%;
     color: var(--color-cuatro);
