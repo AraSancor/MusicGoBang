@@ -1,8 +1,8 @@
 :root {
-  --color-uno: #111213;
-  --color-dos: #0b0c0e;
-  --color-tres: #dce8f5;
-   --color-cuatro: #aac0ca;
+  --color-uno: #0B0B0D;
+  --color-dos: #474A56;
+  --color-tres: #929AAB;
+   --color-cuatro: #D3D5FD;
 }
 /* Colores corporativos*/
 * {
@@ -38,7 +38,6 @@ body {
   display: grid;
   grid-template-areas:
     "menu header header"
-    "menu main main"
     "menu main main";
  /* grid-gap: 1px;*/
   
@@ -169,6 +168,10 @@ a {
   .item3 li {
     margin-bottom: 8%;
     margin-top: 3%;
+  }
+  .item3 img{
+    width: 20vw;
+    height: 20vw;
   }
   .containerdisc {
     font-size: 3.3vw;
