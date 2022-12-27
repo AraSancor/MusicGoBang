@@ -8,7 +8,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+
   box-sizing: border-box;
 }
 
@@ -31,14 +31,10 @@ body {
 }
 
 .item1 {
-
   grid-area: header;
 }
 
-.item1 img {
-  width: 100vw;
-  height: 10vw;
-}
+
 
 .item2 {
   grid-area: menu;
@@ -109,10 +105,10 @@ img {
   opacity: 0.9;
   color: #f2f2f2;
   font-size: 5vw;
-  padding: 8px 12px;
+  padding: 2%;
   position: absolute;
   bottom: 8px;
-  width: 100vw;
+  width: 96vw;
   background-color: var(--color-uno);
   text-align: center;
 }
@@ -121,15 +117,15 @@ img {
 .numbertext {
   color: #f2f2f2;
   font-size: 1.2vw;
-  padding: 8px 12px;
+  padding: 2%;
   position: absolute;
   top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 2vw;
+  width: 2vw;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -138,7 +134,7 @@ img {
 }
 
 .active {
-  background-color: #717171;
+  background-color: #3f3e3e;
 }
 
 /* Fading animation */
@@ -160,7 +156,7 @@ img {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
-    font-size: 11px;
+    font-size: 1vw;
   }
 }
 
@@ -294,23 +290,23 @@ nav a:hover {
     padding: 2%;
     width:90vw;
    } 
-.item1 img{
-
-  height: 20vw;
-}
+   .item1 img {
+    width: 96vw;
+    height: 20vw;
+  }
 
   .item3 {
-    width: 90vw;
+
     background-image: url("../img/discos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 3%;
+    padding: 5%;
     color: var(--color-cuatro);
     margin-bottom: 2%;
   }
 
   .item3 p {
-    width: 88vw;
+    width: 80vw;
     margin: 0 0 10% 0;
     padding: 2%;
     background-color: var(--color-cinco);
@@ -319,7 +315,7 @@ nav a:hover {
 
   .item3 img {
     width: 80vw;
-    margin-left: 2%;
+    margin: 2%;
     padding-bottom: 3%;
   }
 
@@ -329,7 +325,7 @@ nav a:hover {
     color: var(--color-uno);
     display: flex;
     font-size: 3vw;
-    grid-gap: 5%;
+    grid-gap: 2%;
     padding: 1% 0 1% 5%;
   }
 
@@ -339,17 +335,15 @@ nav a:hover {
   }
 
   .item4 img {
-    width: 20vw;
+    width: 15vw;
   }
-  .item5{
-    width: 90vw;
-  }
+ 
   .item5 p,
   h3,
   h2 {
 
     font-size: 3vw;
-    padding: 3%;
+    padding: 5%;
   }
 
   .item7 {
@@ -386,11 +380,18 @@ nav a:hover {
       "footer footer";
     grid-gap: 3px;
   }
-
+  iframe{
+    padding: 1%;
+    width: 33vw;
+    height: 28vw;
+   }
   .div img {
     width: 5vw;
   }
-
+  .item1 img {
+    width: 100vw;
+    height: 10vw;
+  }
   .item2 {
     font-size: 1.3vw;
   }
@@ -429,6 +430,7 @@ nav a:hover {
   }
 
   .item4 {
+    color: var(--color-tres);
     padding: 3%;
     text-align: justify;
     width: 20vw;
@@ -445,6 +447,7 @@ nav a:hover {
   }
 
   .item5 {
+   
     margin-left: 5%;
     grid-gap: 3%;
     display: flex;
