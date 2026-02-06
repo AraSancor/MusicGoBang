@@ -170,9 +170,7 @@ img {
   clear: both;
 }
 
-.clear {
-  *zoom: 1;
-}
+
 
 a#pull {
   display: none;
