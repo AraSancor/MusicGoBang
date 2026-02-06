@@ -1,138 +1,146 @@
      :root {
-    --color-uno: #000000;
-    --color-dos: #4c4e4e;
-    --color-tres: #4d0303;
-    --color-cuatro: #E4E4E4;
-}
+         --color-uno: #000000;
+         --color-dos: #4c4e4e;
+         --color-tres: #4d0303;
+         --color-cuatro: #E4E4E4;
+     }
 
-a {
-    opacity: 0.8;
-    background: var(--color-uno);
-    color: var(--color-cuatro);
-    text-decoration: none;
+     a {
+         opacity: 0.8;
+         background: var(--color-uno);
+         color: var(--color-cuatro);
+         text-decoration: none;
 
-}
+     }
 
-h1,p {
-    opacity: 0.8;
-    font-family: comic;
-    color: var(--color-cuatro);
-    background-color: var(--color-uno);
+     h1,
+     p {
+         opacity: 0.8;
+         font-family: comic;
+         color: var(--color-cuatro);
+         background-color: var(--color-uno);
 
-}
-@media only screen and (max-width : 200px) {
-  
-   
-}
+     }
 
-#div-cookies {
-    opacity: 0.8;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-    background-color: var(--color-uno);
-    color: var(--color-cuatro);
-    box-shadow: 0px -5px 15px var(--color-tres);
-    z-index: 99;
+     @media only screen and (max-width : 200px) {}
 
-}
+     #div-cookies {
+         opacity: 0.8;
+         position: fixed;
+         bottom: 0px;
+         left: 0px;
+         width: 100%;
+         height: auto;
+         background-color: var(--color-uno);
+         color: var(--color-cuatro);
+         box-shadow: 0px -5px 15px var(--color-tres);
+         z-index: 99;
 
-button {
-    background-color: var(--color-cuatro);
-   
-}
+     }
 
-@media only screen and (min-width: 200px) and (max-width: 776px) {
+     button {
+         background-color: var(--color-cuatro);
 
-    body {
-        background-color: var(--color-uno);
-        text-align: center;
-        font-family: sans-serif;
-        background-image: url("../img/record2.jpg");
-        height: 50vw;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-    #div-cookies {
-       text-align: left;
-      padding: 3%;
-    }
-    h1 {
-    
-        opacity: 0.9;
-        margin: 15% 1% 30% 0;
-        padding-right:18% ;
-        font-size: 11vw;
-    
-    }
-    p {
-    
-        opacity: 0.9;
-       padding-right:18% ;
-        font-size: 5vw;
-    
-    }
-    a {
-        padding: 1%;
-        opacity: 0.8;
-        font-size: 5vw;
-  
-    
-    }
-    button {
-        margin: 3%;
-        font-size: 5vw;
-    }
-    }
+     }
 
-@media only screen and (min-width: 777px) and (max-width: 3800px) {
+     @media only screen and (min-width: 1px) and (max-width: 1280px) {
 
-    body {
-        background-color: var(--color-uno);
-     text-align: center;
-        font-family: sans-serif;
-        background-image: url("../img/record.jpg");
-        height: 50vw;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-    #div-cookies {
-        text-align: left;
-        font-size: 1.5vw;
-        padding: 3%;
-        margin: 1%;
-    }
+         body {
+             background-color: var(--color-uno);
+             text-align: center;
+             font-family: sans-serif;
+             background-image: url("../img/record2.jpg");
+             height: 50vw;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             position: relative;
+         }
 
-    button {
-        font-size: 2vw;
-    }
-    h1 {
-  
-        margin-top: 11%;
-        padding-right:18% ;
-       font-size: 10vw;
-    
-    }
-    p {
-  
-    padding-right:18% ;
-       font-size: 3vw;
-    
-    }
+         #div-cookies {
+             text-align: left;
+             padding: 3%;
+         }
 
-    a { padding: 1%;
-        opacity: 0.8;
-        font-size: 2vw;
-        margin: 3%;
-        }
-    
-   
+         h1 {
+             opacity: 0.9;
+             margin: 1%;
+             padding: 1%;
+             font-size: 5rem;
 
-}
+         }
 
+         p {
+             opacity: 0.9;
+             padding: 1%;
+             font-size: 2rem;
+
+         }
+
+         a {
+             padding: 1%;
+             opacity: 0.8;
+             font-size: 1.5rem;
+         }
+
+         button {
+             margin: 3%;
+             font-size: 2rem;
+         }
+     }
+
+     @media only screen and (min-width: 1281px) {
+
+         body {
+             background-color: var(--color-uno);
+             text-align: center;
+             font-family: sans-serif;
+             background-image: url("../img/record.jpg");
+             height: 50vw;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             position: relative;
+         }
+
+         #div-cookies {
+             text-align: left;
+             font-size: 1rem;
+             padding: 3%;
+             margin: 1%;
+         }
+
+         #div-cookies p {
+
+             font-size: 1.6rem;
+
+         }
+
+         button {
+             font-size: 1.5rem;
+         }
+
+         h1 {
+
+             margin-top: 11%;
+             font-size: 5rem;
+
+         }
+
+         p {
+
+
+             font-size: 2.5rem;
+
+         }
+
+         a {
+             padding: 1%;
+             opacity: 0.8;
+             font-size: 1.5rem;
+             margin: 3%;
+         }
+
+
+
+     }

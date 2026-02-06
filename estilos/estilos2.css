@@ -134,7 +134,7 @@ a {
        grid-gap: 10px ;
   }
   .item1 {
-    background-image: url("../img/turntable.jpg"); /* The image used */
+    background-image: url("../img/turntable.jpg"); 
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
